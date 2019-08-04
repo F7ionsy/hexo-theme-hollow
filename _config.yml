@@ -1,5 +1,5 @@
 # Default post title
-default_post_title: Halo
+default_post_title: F7ionsy
 
 #Date Format
 date_format: YYYY 年 MM 月 DD 日
@@ -13,11 +13,16 @@ comments:
 google_analytics: 
 
 # Register service worker
-service_worker: false
+service_worker: true
 
 # Local search with atom.xml, dependency hexo-generator-feed plugin
-local_search: true
+local_search: false
 
 # using viewer.js to view image
 # https://fengyuanchen.github.io/viewerjs/
 image_viewer: true
+
+ocean:
+  overlay: true
+  path: /images/ocean/
+  brand: /images/hexo-inverted.svg
