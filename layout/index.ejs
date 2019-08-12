@@ -1,6 +1,9 @@
 <!-- Go Site -->
 <%- partial('_partial/gosite') %>
 <%- partial('_partial/ocean') %>
+<% if (theme.motto.enable) { %>
+	<%- partial('_partial/plugin/motto') %>
+<% } %>
 <!-- Main Content -->
 <section class="intro">
     <div class="container">

@@ -26,3 +26,7 @@ ocean:
   overlay: true
   path: /images/ocean/
   brand: /images/hexo-inverted.svg
+  
+motto:
+    enable: true
+    
